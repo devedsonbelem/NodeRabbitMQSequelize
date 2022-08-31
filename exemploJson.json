@@ -1,0 +1,1470 @@
+{
+    "id":40133,
+    "numeroProposta":"ON0040133",
+    "dataCriacao":"2020-08-17T18:31:00.6018221",
+    "dataVigencia":"2020-10-01T00:00:00",
+    "dataLimiteTransmissao":"2020-09-15T23:59:59",
+    "dataLimiteRetransmissao":"2020-09-18T23:59:59",
+    "dataVencimento":"2020-08-01T00:00:00",
+    "linkDownloadPDF":"https://hcommerce-api.hmg.m.com.br/api/v1/propostaAdesao/40133/visualizarpdf?hash=fpU5HPKbfWWuyyst8joRxc7X94ltepQsV2PP1ipGLniWu%2fsRLPXaSo%2fzYUNfeCenekfcYM5zjMDhcCwTno6eX%2beH8Vvm5SeKMK7GiydeZiKz7XSRmypYc4vnHM2Qm8lYtPWB9mjPaK0y9wrMDbTxwRo34VYagQxKt5Ncc3WVsEVGp1ylin5uN6Lc3AvTIYIgm9%2bYs%2foisENp7N3RNCCjpBG0TDCmG1plUbKxpLMy7Sw%3d",
+    "valorTotal":225.87,
+    "valorTotalMensal":231.77,
+    "valorTaxaAssociativa":5.90,
+    "taxaCadastro":20.00,
+    "tipoPagamentoAtoDaVenda":null,
+    "valorAtoDaVenda":null,
+    "contrato":{
+       "id":7
+    },
+    "subcontrato":{
+       "id":23
+    },
+    "operadora":{
+       "id":2,
+       "cnpj":"31925548000176",
+       "nome":"ASSIM SAÚDE",
+       "site":"assim.com.br",
+       "telefone":"08007239797"
+    },
+    "entidade":{
+       "id":5.0,
+       "sigla":"AFENPROLIB",
+       "nome":"ASSOCIACAO FEDERATIVA NACIONAL DOS PROFISSIONAIS LIBERAIS NO BRASIL"
+    },
+    "plano":{
+       "id":25,
+       "nome":"ASSIM MAX QC",
+       "codigoANS":"483.898/19-0",
+       "tipoContratacao":{
+          "id":1,
+          "descricao":"Adesão"
+       },
+       "acomodacao":{
+          "id":1,
+          "descricao":"ENFERMARIA"
+       },
+       "fatorModerador":{
+          "id":1,
+          "descricao":"SEM COPARTICIPAÇÃO"
+       },
+       "cobertura":{
+          "id":4,
+          "descricao":"AMBULATORIAL + HOSPITALAR COM OBSTETRICIA"
+       },
+       "abrangenciaGeografica":{
+          "id":1,
+          "descricao":"GRUPO DE MUNICIPIO"
+       },
+       "areaAtuacao":{
+          "id":14,
+          "descricao":"RIO DE JANEIRO / SÃO GONÇALO / DUQUE DE CAXIAS / MESQUITA / NITERÓI"
+       },
+       "operadora":{
+          "id":2,
+          "cnpj":"31925548000176",
+          "nome":"ASSIM SAÚDE",
+          "site":"assim.com.br",
+          "telefone":"08007239797"
+       },
+       "adicionais":null,
+       "formacaoDePreco":null,
+       "quantidadeVidas":0,
+       "valorTotal":null,
+       "valorTotalTabela":null,
+       "recorrenciaPromocaoMeses":null,
+       "indPromocional":null,
+       "indPossuiOpcional":false
+    },
+    "indConfirmaEmailBoleto":null,
+    "motivoDevolucao":null,
+    "informeCorretor":null,
+    "titular":{
+       "id":40127,
+       "cpf":"53513743076",
+       "rg":"111111111111",
+       "nome":"Lucas teste retransmissao 2",
+       "dataNascimento":"1991-09-17T00:00:00",
+       "nomeMae":"Maria teste",
+       "sexo":"M",
+       "cns":"",
+       "dnv":"",
+       "email":"ldomingues.hcommerce.corretor@gmail.com",
+       "dddTelefone":null,
+       "numTelefone":null,
+       "dddCelular":"21",
+       "numCelular":"932111111",
+       "valor":225.87,
+       "idade":28,
+       "numeroCarteirinha":null,
+       "indLGPD":null,
+       "estadoCivil":{
+          "id":1,
+          "descricao":"Casado(a)"
+       },
+       "orgaoEmissor":{
+          "id":1,
+          "descricao":"Detran"
+       },
+       "endereco":{
+          "id":20082,
+          "cep":"20031-144",
+          "logradouro":"México",
+          "tipoLogradouro":null,
+          "numero":"11",
+          "complemento":"",
+          "bairro":"Centro",
+          "cidade":"Rio de Janeiro",
+          "uf":"RJ"
+       },
+       "representanteLegal":null,
+       "carencia":null,
+       "dependente":[
+          
+       ],
+       "profissao":{
+          "id":85,
+          "descricao":"PROFISSIONAL LIBERAL",
+          "codigo":null,
+          "indExcluido":null
+       },
+       "declaracaoSaude":null,
+       "declaracaoSaudeRetificadora":null,
+       "criteriosAnaliseMedica":[
+          
+       ],
+       "codigoReducaoCarencia":null
+    },
+    "corretora":{
+       "id":10003.0,
+       "cnpj":"35855718000144",
+       "nome":"TESTE \r\n",
+       "razaoSocial":"TEC\r\n",
+       "possuiSupervisor":true,
+       "codigo":"999999",
+       "email":"hcommerce@m.com.br\r\n",
+       "indAtivo":null,
+       "indLiberacaoColaborador":null,
+       "sistemaParceiroCorretora":null
+    },
+    "administradora":{
+       "id":2,
+       "codigoANS":"420662",
+       "site":"www.a4rio.com.br",
+       "telefone":"22112000",
+       "cnpj":"26143483000177",
+       "nomeFantasia":"hcommerce",
+       "razaoSocial":"Hcommerce"
+    },
+    "corretor":{
+       "id":4,
+       "cpf":"12688278789",
+       "nome":"LUCAS DOMINGUES",
+       "email":"ldomingues@m.com.br",
+       "celular":"21979656322"
+    },
+    "supervisor":{
+       "id":10004,
+       "corretor":{
+          "id":5,
+          "cpf":"09282819736",
+          "nome":"TATIANA MAGALHAES CARDOSO",
+          "email":"cardosotatianam@gmail.com",
+          "dataNascimento":"29/04/1976",
+          "dddTelefone":"",
+          "numTelefone":"",
+          "dddCelular":"21",
+          "numCelular":"995151575",
+          "indLGPD":true,
+          "endereco":{
+             "id":5,
+             "cep":"20031-140",
+             "logradouro":"México",
+             "tipoLogradouro":null,
+             "numero":"11",
+             "complemento":"",
+             "bairro":"Centro",
+             "cidade":"Rio de Janeiro",
+             "uf":"RJ"
+          }
+       },
+       "corretora":null
+    },
+    "status":{
+       "id":10,
+       "descricao":"Implantada"
+    },
+    "fase":{
+       "id":3,
+       "descricao":"Histórico"
+    },
+    "declaracaoSaudeEscolha":{
+       "id":3,
+       "codigo":null,
+       "descricao":"Médico operadora"
+    },
+    "declaracaoSaude":{
+       "id":2,
+       "tipo":1
+    },
+    "historico":[
+       {
+          "dataAlteracao":"2020-08-17T18:31:00.7735865",
+          "dataInclusao":"2020-08-17T18:31:00.7725837",
+          "descricao":"Proposta criada",
+          "idProposta":40133,
+          "idStatusProposta":1,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":4,
+             "nome":"LUCAS DOMINGUES",
+             "perfil":"Corretor"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":1,
+             "descricao":"Em digitação"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:31:48.7452016",
+          "dataInclusao":"2020-08-17T18:31:48.7422008",
+          "descricao":"Enviada para assinatura do cliente ",
+          "idProposta":40133,
+          "idStatusProposta":2,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":4,
+             "nome":"LUCAS DOMINGUES",
+             "perfil":"Corretor"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":2,
+             "descricao":"Enviada para assinatura"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:51:01.9150134",
+          "dataInclusao":"2020-08-17T18:51:01.8838125",
+          "descricao":"Assinada Pelo cliente",
+          "idProposta":40133,
+          "idStatusProposta":4,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":null,
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":4,
+             "descricao":"Assinada pelo cliente"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:51:33.0691483",
+          "dataInclusao":"2020-08-17T18:51:33.0691483",
+          "descricao":"Em análise na administradora",
+          "idProposta":40133,
+          "idStatusProposta":6,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":null,
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":6,
+             "descricao":"Em análise na Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:52:19.0125339",
+          "dataInclusao":"2020-08-17T18:52:19.0125339",
+          "descricao":"Proposta em análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":6,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":6,
+             "descricao":"Em análise na Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:52:37.7955061",
+          "dataInclusao":"2020-08-17T18:52:37.7955061",
+          "descricao":"Proposta devolvida pela análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":6,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":[
+             {
+                "dataAlteracao":"2020-08-17T18:52:37.7955061",
+                "dataInclusao":"2020-08-17T18:52:37.7955061",
+                "devolucao":{
+                   "id":20,
+                   "observacao":null,
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":1,
+                      "descricao":"O documento está ilegível."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":1,
+                      "descricao":"Aguardando agendamento de entrevista com médico da Administradora"
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             }
+          ],
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":6,
+             "descricao":"Em análise na Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:52:37.935895",
+          "dataInclusao":"2020-08-17T18:52:37.920293",
+          "descricao":"Devolvida pela administradora",
+          "idProposta":40133,
+          "idStatusProposta":7,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":7,
+             "descricao":"Devolvida pela Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:52:55.7048417",
+          "dataInclusao":"2020-08-17T18:52:55.7048417",
+          "descricao":"Proposta regularizada",
+          "idProposta":40133,
+          "idStatusProposta":16,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":4,
+             "nome":"LUCAS DOMINGUES",
+             "perfil":"Corretor"
+          },
+          "devolucoes":[
+             {
+                "dataAlteracao":"2020-08-17T18:52:55.7048417",
+                "dataInclusao":"2020-08-17T18:52:55.7048417",
+                "devolucao":{
+                   "id":20,
+                   "observacao":null,
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":1,
+                      "descricao":"O documento está ilegível."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":1,
+                      "descricao":"Aguardando agendamento de entrevista com médico da Administradora"
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             }
+          ],
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":16,
+             "descricao":"Em regularização"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:53:35.891651",
+          "dataInclusao":"2020-08-17T18:53:35.891651",
+          "descricao":"Proposta em análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":16,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":16,
+             "descricao":"Em regularização"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:53:42.7403163",
+          "dataInclusao":"2020-08-17T18:53:42.7403163",
+          "descricao":"Proposta devolvida pela análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":16,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":[
+             {
+                "dataAlteracao":"2020-08-17T18:53:42.7403163",
+                "dataInclusao":"2020-08-17T18:53:42.7403163",
+                "devolucao":{
+                   "id":21,
+                   "observacao":null,
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":2,
+                      "descricao":"O documento enviado não atende para comprovar este tipo de documento."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":3,
+                      "descricao":"Comprovante de Redução de carência (Cópia dos 3 últimos boletos quitados e cópia da carteirinha com a data de início de vigência  e acomodação (enfermaria/apartamento) ou carta de permanência)"
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             }
+          ],
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":16,
+             "descricao":"Em regularização"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:53:42.8494393",
+          "dataInclusao":"2020-08-17T18:53:42.8494393",
+          "descricao":"Devolvida pela administradora",
+          "idProposta":40133,
+          "idStatusProposta":7,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":7,
+             "descricao":"Devolvida pela Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:55:07.1699691",
+          "dataInclusao":"2020-08-17T18:55:07.1231701",
+          "descricao":"Proposta regularizada",
+          "idProposta":40133,
+          "idStatusProposta":16,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":4,
+             "nome":"LUCAS DOMINGUES",
+             "perfil":"Corretor"
+          },
+          "devolucoes":[
+             {
+                "dataAlteracao":"2020-08-17T18:55:07.1699691",
+                "dataInclusao":"2020-08-17T18:55:07.1543686",
+                "devolucao":{
+                   "id":20,
+                   "observacao":null,
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":1,
+                      "descricao":"O documento está ilegível."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":1,
+                      "descricao":"Aguardando agendamento de entrevista com médico da Administradora"
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             },
+             {
+                "dataAlteracao":"2020-08-17T18:55:07.1699691",
+                "dataInclusao":"2020-08-17T18:55:07.1543686",
+                "devolucao":{
+                   "id":21,
+                   "observacao":null,
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":2,
+                      "descricao":"O documento enviado não atende para comprovar este tipo de documento."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":3,
+                      "descricao":"Comprovante de Redução de carência (Cópia dos 3 últimos boletos quitados e cópia da carteirinha com a data de início de vigência  e acomodação (enfermaria/apartamento) ou carta de permanência)"
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             }
+          ],
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":16,
+             "descricao":"Em regularização"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:56:50.7726752",
+          "dataInclusao":"2020-08-17T18:56:50.7726752",
+          "descricao":"Proposta em análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":16,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":16,
+             "descricao":"Em regularização"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:56:57.9956941",
+          "dataInclusao":"2020-08-17T18:56:57.9956941",
+          "descricao":"Proposta devolvida pela análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":16,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":[
+             {
+                "dataAlteracao":"2020-08-17T18:56:57.9956941",
+                "dataInclusao":"2020-08-17T18:56:57.9956941",
+                "devolucao":{
+                   "id":22,
+                   "observacao":null,
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":2,
+                      "descricao":"O documento enviado não atende para comprovar este tipo de documento."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":2,
+                      "descricao":"Beneficiário ativo em outro contrato na Administradora"
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             }
+          ],
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":16,
+             "descricao":"Em regularização"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T18:56:58.1048966",
+          "dataInclusao":"2020-08-17T18:56:58.0892959",
+          "descricao":"Devolvida pela administradora",
+          "idProposta":40133,
+          "idStatusProposta":7,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":7,
+             "descricao":"Devolvida pela Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T19:15:00.4443871",
+          "dataInclusao":"2020-08-17T19:15:00.4403871",
+          "descricao":"Proposta em análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":16,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":16,
+             "descricao":"Em regularização"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T19:22:26.4554271",
+          "dataInclusao":"2020-08-17T19:22:26.4534296",
+          "descricao":"Proposta em análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":6,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":6,
+             "descricao":"Em análise na Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T19:25:17.0674011",
+          "dataInclusao":"2020-08-17T19:25:17.0633996",
+          "descricao":"Proposta em análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":6,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":6,
+             "descricao":"Em análise na Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T19:51:49.3435817",
+          "dataInclusao":"2020-08-17T19:51:49.3405823",
+          "descricao":"Proposta em análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":6,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":3,
+             "descricao":"Sendo analisada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":6,
+             "descricao":"Em análise na Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T20:06:17.2391425",
+          "dataInclusao":"2020-08-17T20:06:17.2371391",
+          "descricao":"Proposta em análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":6,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":3,
+             "descricao":"Sendo analisada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":6,
+             "descricao":"Em análise na Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T20:07:05.257522",
+          "dataInclusao":"2020-08-17T20:07:05.2545243",
+          "descricao":"Devolvida pela administradora",
+          "idProposta":40133,
+          "idStatusProposta":7,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":[
+             {
+                "dataAlteracao":"2020-08-17T20:07:05.2585233",
+                "dataInclusao":"2020-08-17T20:07:05.2545243",
+                "devolucao":{
+                   "id":23,
+                   "observacao":null,
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":3,
+                      "descricao":"O documento não foi enviado."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":14,
+                      "descricao":"Identidade"
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             }
+          ],
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":4,
+             "descricao":"Devolvida"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":7,
+             "descricao":"Devolvida pela Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T20:09:12.8928058",
+          "dataInclusao":"2020-08-17T20:09:12.8928058",
+          "descricao":"Proposta regularizada",
+          "idProposta":40133,
+          "idStatusProposta":16,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":4,
+             "nome":"LUCAS DOMINGUES",
+             "perfil":"Corretor"
+          },
+          "devolucoes":[
+             {
+                "dataAlteracao":"2020-08-17T20:09:12.8928058",
+                "dataInclusao":"2020-08-17T20:09:12.8928058",
+                "devolucao":{
+                   "id":20,
+                   "observacao":null,
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":1,
+                      "descricao":"O documento está ilegível."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":1,
+                      "descricao":"Aguardando agendamento de entrevista com médico da Administradora"
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             },
+             {
+                "dataAlteracao":"2020-08-17T20:09:12.8928058",
+                "dataInclusao":"2020-08-17T20:09:12.8928058",
+                "devolucao":{
+                   "id":21,
+                   "observacao":null,
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":2,
+                      "descricao":"O documento enviado não atende para comprovar este tipo de documento."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":3,
+                      "descricao":"Comprovante de Redução de carência (Cópia dos 3 últimos boletos quitados e cópia da carteirinha com a data de início de vigência  e acomodação (enfermaria/apartamento) ou carta de permanência)"
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             },
+             {
+                "dataAlteracao":"2020-08-17T20:09:12.8928058",
+                "dataInclusao":"2020-08-17T20:09:12.8928058",
+                "devolucao":{
+                   "id":22,
+                   "observacao":null,
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":2,
+                      "descricao":"O documento enviado não atende para comprovar este tipo de documento."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":2,
+                      "descricao":"Beneficiário ativo em outro contrato na Administradora"
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             },
+             {
+                "dataAlteracao":"2020-08-17T20:09:12.8928058",
+                "dataInclusao":"2020-08-17T20:09:12.8928058",
+                "devolucao":{
+                   "id":23,
+                   "observacao":null,
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":3,
+                      "descricao":"O documento não foi enviado."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":14,
+                      "descricao":"Identidade"
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             }
+          ],
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":null,
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":16,
+             "descricao":"Em regularização"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T20:20:36.2470396",
+          "dataInclusao":"2020-08-17T20:20:36.2440382",
+          "descricao":"Proposta em análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":16,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":3,
+             "descricao":"Sendo analisada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":16,
+             "descricao":"Em regularização"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T20:21:09.1506904",
+          "dataInclusao":"2020-08-17T20:21:09.1466957",
+          "descricao":"Devolvida pela administradora",
+          "idProposta":40133,
+          "idStatusProposta":7,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":[
+             {
+                "dataAlteracao":"2020-08-17T20:21:09.1506904",
+                "dataInclusao":"2020-08-17T20:21:09.1466957",
+                "devolucao":{
+                   "id":24,
+                   "observacao":"teste",
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":2,
+                      "descricao":"O documento enviado não atende para comprovar este tipo de documento."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":16,
+                      "descricao":"RG/Certidão de nascimento"
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             }
+          ],
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":4,
+             "descricao":"Devolvida"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":7,
+             "descricao":"Devolvida pela Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T20:23:47.6467666",
+          "dataInclusao":"2020-08-17T20:23:47.6457645",
+          "descricao":"Proposta em análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":6,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":3,
+             "descricao":"Sendo analisada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":6,
+             "descricao":"Em análise na Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T20:23:59.139318",
+          "dataInclusao":"2020-08-17T20:23:59.137318",
+          "descricao":"Devolvida pela administradora",
+          "idProposta":40133,
+          "idStatusProposta":7,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":[
+             {
+                "dataAlteracao":"2020-08-17T20:23:59.139318",
+                "dataInclusao":"2020-08-17T20:23:59.137318",
+                "devolucao":{
+                   "id":26,
+                   "observacao":null,
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":5,
+                      "descricao":"Anexar carta do cliente, de própio punho, solicitando o cancelamento da proposta."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":17,
+                      "descricao":"Selfie incorreta.  Caso o titular seja menor de idade, a selfie deverá ser do responsável financeiro desta proposta."
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             }
+          ],
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":4,
+             "descricao":"Devolvida"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":7,
+             "descricao":"Devolvida pela Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T20:30:21.5411161",
+          "dataInclusao":"2020-08-17T20:30:21.5361149",
+          "descricao":"Em regularização",
+          "idProposta":40133,
+          "idStatusProposta":16,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":4,
+             "nome":"LUCAS DOMINGUES",
+             "perfil":"Corretor"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":2,
+             "descricao":"Reenviada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":16,
+             "descricao":"Em regularização"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T20:30:40.8627441",
+          "dataInclusao":"2020-08-17T20:30:40.8577457",
+          "descricao":"Proposta em análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":16,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":3,
+             "descricao":"Sendo analisada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":16,
+             "descricao":"Em regularização"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T20:30:52.6050011",
+          "dataInclusao":"2020-08-17T20:30:52.6020018",
+          "descricao":"Devolvida pela administradora",
+          "idProposta":40133,
+          "idStatusProposta":7,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":[
+             {
+                "dataAlteracao":"2020-08-17T20:30:52.6050011",
+                "dataInclusao":"2020-08-17T20:30:52.6020018",
+                "devolucao":{
+                   "id":27,
+                   "observacao":"teste",
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":5,
+                      "descricao":"Anexar carta do cliente, de própio punho, solicitando o cancelamento da proposta."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":17,
+                      "descricao":"Selfie incorreta.  Caso o titular seja menor de idade, a selfie deverá ser do responsável financeiro desta proposta."
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             }
+          ],
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":4,
+             "descricao":"Devolvida"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":7,
+             "descricao":"Devolvida pela Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T20:31:19.6720343",
+          "dataInclusao":"2020-08-17T20:31:19.6690368",
+          "descricao":"Em regularização",
+          "idProposta":40133,
+          "idStatusProposta":16,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":4,
+             "nome":"LUCAS DOMINGUES",
+             "perfil":"Corretor"
+          },
+          "devolucoes":[
+             {
+                "dataAlteracao":"2020-08-17T20:31:19.6720343",
+                "dataInclusao":"2020-08-17T20:31:19.6700377",
+                "devolucao":{
+                   "id":27,
+                   "observacao":"teste",
+                   "analiseAdministrativaProblemaItemDevolvido":{
+                      "id":5,
+                      "descricao":"Anexar carta do cliente, de própio punho, solicitando o cancelamento da proposta."
+                   },
+                   "analiseAdministrativaItemDevolucao":{
+                      "id":17,
+                      "descricao":"Selfie incorreta.  Caso o titular seja menor de idade, a selfie deverá ser do responsável financeiro desta proposta."
+                   },
+                   "analiseMedicaMotivoDevolucao":null,
+                   "mensagemResolucaoCorretor":null
+                }
+             }
+          ],
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":2,
+             "descricao":"Reenviada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":16,
+             "descricao":"Em regularização"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-17T21:37:10.2928983",
+          "dataInclusao":"2020-08-17T21:37:10.2617067",
+          "descricao":"Proposta em análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":6,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":3,
+             "descricao":"Sendo analisada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":6,
+             "descricao":"Em análise na Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-28T17:19:54.3221313",
+          "dataInclusao":"2020-08-28T17:19:54.1193193",
+          "descricao":"Proposta liberada pela análise administrativa",
+          "idProposta":40133,
+          "idStatusProposta":6,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":6,
+             "descricao":"Liberada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":6,
+             "descricao":"Em análise na Administradora"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-28T17:19:56.8494205",
+          "dataInclusao":"2020-08-28T17:19:56.8494205",
+          "descricao":"Aguardando vigência",
+          "idProposta":40133,
+          "idStatusProposta":14,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":6,
+             "descricao":"Liberada"
+          },
+          "etapaAnaliseMedica":{
+             "id":8,
+             "descricao":"Liberado sem ajustes na DS"
+          },
+          "status":{
+             "id":14,
+             "descricao":"Aguardando vigência"
+          }
+       },
+       {
+          "dataAlteracao":"2020-08-28T17:32:20.258509",
+          "dataInclusao":"2020-08-28T17:32:20.258509",
+          "descricao":"Troca de status",
+          "idProposta":40133,
+          "idStatusProposta":14,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":null,
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":6,
+             "descricao":"Liberada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":14,
+             "descricao":"Aguardando vigência"
+          }
+       },
+       {
+          "dataAlteracao":"2020-09-02T20:40:34.255726",
+          "dataInclusao":"2020-09-02T20:40:34.1621225",
+          "descricao":"Troca de status",
+          "idProposta":40133,
+          "idStatusProposta":10,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":null,
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":6,
+             "descricao":"Liberada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":10,
+             "descricao":"Implantada"
+          }
+       },
+       {
+          "dataAlteracao":"2020-11-05T15:48:09.5707466",
+          "dataInclusao":"2020-11-05T15:48:09.5551481",
+          "descricao":"Troca de status",
+          "idProposta":40133,
+          "idStatusProposta":15,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":6,
+             "descricao":"Liberada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":15,
+             "descricao":"Em análise médica"
+          }
+       },
+       {
+          "dataAlteracao":"2020-11-05T15:48:38.6812212",
+          "dataInclusao":"2020-11-05T15:48:38.6812212",
+          "descricao":"Troca de status",
+          "idProposta":40133,
+          "idStatusProposta":10,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":6,
+             "descricao":"Liberada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":10,
+             "descricao":"Implantada"
+          }
+       },
+       {
+          "dataAlteracao":"2020-11-05T16:40:46.1200024",
+          "dataInclusao":"2020-11-05T16:40:46.1044009",
+          "descricao":"Troca de status",
+          "idProposta":40133,
+          "idStatusProposta":15,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":6,
+             "descricao":"Liberada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":15,
+             "descricao":"Em análise médica"
+          }
+       },
+       {
+          "dataAlteracao":"2020-11-05T16:42:10.424931",
+          "dataInclusao":"2020-11-05T16:42:10.424931",
+          "descricao":"Troca de status",
+          "idProposta":40133,
+          "idStatusProposta":10,
+          "idMotivoCancelamento":null,
+          "motivoCancelamento":null,
+          "responsavel":{
+             "id":13,
+             "nome":"Hcommerce",
+             "perfil":"Super Administrador"
+          },
+          "devolucoes":null,
+          "pendenciasAnaliseMedica":null,
+          "pendenciasAnaliseAdministrativa":null,
+          "etapaAnaliseAdministrativa":{
+             "id":6,
+             "descricao":"Liberada"
+          },
+          "etapaAnaliseMedica":null,
+          "status":{
+             "id":10,
+             "descricao":"Implantada"
+          }
+       }
+    ],
+    "devolucoes":null,
+    "cancelamento":null,
+    "indIgualdadeIPCorretorCliente":true,
+    "propostaAdesaoPagamento":null,
+    "pendencias":[
+       null,
+       null,
+       null,
+       null,
+       "teste",
+       null,
+       "teste"
+    ],
+    "trocaVigencia":true,
+    "qtdRecorrenciaAnualTaxaAssociativa":null,
+    "descricaoRecorrenciaTaxaAssociativa":"MÊS",
+    "relacoesParceiros":[
+       
+    ],
+    "propostaAdesaoEtapaAnaliseAdministrativa":{
+       "id":6,
+       "descricao":"Liberada"
+    },
+    "propostaAdesaoEtapaAnaliseMedica":{
+       "id":8,
+       "descricao":"Liberado sem ajustes na DS"
+    },
+    "usuarioAnaliseAdministrativa":null,
+    "usuarioAnaliseMedica":null,
+    "idTipoTaxaCadastro":null,
+    "tipoTaxaCadastro":null,
+    "idFormaCobrancaTaxaCadastro":null,
+    "formaCobrancaTaxaCadastro":null,
+    "declaracaoSaudeRetificadora":null
+ }

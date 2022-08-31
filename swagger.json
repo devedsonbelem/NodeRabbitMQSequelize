@@ -1,0 +1,1076 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"version": "1.0.0",
+		"title": "Yet Another Node.js Blogg Application API",
+		"description": "Yet Another Node.js Blogg Application API",
+		"license": {
+			"name": "MIT",
+			"url": "https://opensource.org/licenses/MIT"
+		}
+	},
+	"host": "api-hadministradora.hmg.com.br",
+	
+	
+	"basePath": "/api/v1",
+	"tags": [
+		{
+			"name": "contratos",
+			"description": "API for Contratos in the system"
+		}
+	],
+	"schemes": [
+		"http",
+		"https"
+	],
+	"consumes": [
+		"application/json"
+	],
+	"produces": [
+		"application/json"
+	],
+
+
+
+
+	"paths": {
+		"/contrato_beneficiario": {
+			"post": {
+
+				"tags": [
+					"contratos"
+				],
+				"deion": "Create new contratos in system",
+				"parameters": [
+					{
+						"name": "contratos",
+						"in": "body",
+						"description": "contratos that we want to create",
+						"schema": {
+							"$ref": "#/definitions/contratos",
+
+							"properties": {
+
+								
+
+								"subcontrato": {
+									"type": "object",
+									"properties": {
+										"id": {
+											"type": "integer"	
+										}
+									}
+								},
+
+								"contrato": {
+									"type": "object",
+									"properties": {
+										"id": {
+											"type": "integer"	
+										}
+									}
+								},
+								
+								"dataVigencia": {
+									"type": "string",
+									"format": "date"
+								},
+								
+								"dataVencimento": {
+									"type": "string",
+									"format": "date"
+								},
+
+								"operadora": {
+									"type": "object",
+									"properties": {
+										"id": {
+											"type": "integer"	
+										},
+										"cnpj": {
+											"type": "number"
+										},
+										"nome": {
+											"type": "string"
+										},
+										"site": {
+											"type": "string"
+										},
+										"telefone": {
+											"type": "number"
+										}
+									}
+								},
+
+								"entidade": {
+									"type": "object",
+									"properties": {
+										"id": {
+											"type": "integer"	
+										},
+										"sigla": {
+											"type": "string"
+										},
+										"nome": {
+											"type": "string"
+										}
+									}
+								},
+
+								"plano": {
+									"type": "object",
+									"properties": {
+										"id": {
+											"type": "number"
+											
+										},
+										"nome": {
+											"type": "string"
+										},
+										"codigoANS": {
+											"type": "number"
+										},
+										"tipoContratacao": {
+											"type": "object",
+											"properties": {
+												"id": {
+													"type": "integer"
+													
+												},
+												"descricao": {
+													"type": "string"
+												}
+											}
+										},
+										"acomodacao": {
+											"type": "object",
+											"properties": {
+												"id": {
+													"type": "integer"
+													
+												},
+												"descricao": {
+													"type": "string"
+												}
+											}
+										},
+										"fatorModerador": {
+											"type": "object",
+											"properties": {
+												"id": {
+													"type": "integer",
+													"format": "int32"
+												},
+												"descricao": {
+													"type": "string"
+												}
+											}
+										},
+										"cobertura": {
+											"type": "object",
+											"properties": {
+												"id": {
+													"type": "integer",
+													"format": "int32"
+												},
+												"descricao": {
+													"type": "string"
+												}
+											}
+										},
+										"abrangenciaGeografica": {
+											"type": "object",
+											"properties": {
+												"id": {
+													"type": "integer",
+													"format": "int32"
+												},
+												"descricao": {
+													"type": "string"
+												}
+											}
+										},
+										"areaAtuacao": {
+											"type": "object",
+											"properties": {
+												"id": {
+													"type": "integer",
+													"format": "int32"
+												},
+												"descricao": {
+													"type": "string"
+												}
+											}
+										},
+										"operadora": {
+											"type": "object",
+											"properties": {
+												"id": {
+													"type": "integer",
+													"format": "int32"
+												},
+												"cnpj": {
+													"type": "number"
+												},
+												"nome": {
+													"type": "string"
+												},
+												"site": {
+													"type": "string"
+												},
+												"telefone": {
+													"type": "number"
+												}
+											}
+										},
+									
+										"adicionais": {
+											"type": "string"
+											
+										},
+										"formacaoDePreco": {
+											"type": "string"
+											
+										},
+										"quantidadeVidas": {
+											"type": "integer"
+											
+										},
+										"valorTotal": {
+											"type": "number"
+											
+										},
+										"valorTotalTabela": {
+											"type": "number"
+											
+										},
+										"recorrenciaPromocaoMeses": {
+											"type": "string"
+											
+										},
+										"indPromocional": {
+											"type": "string"
+											
+										},
+										"indPossuiOpcional": {
+											"type": "boolean"
+										}
+									}
+								},
+								"titular": {
+									"type": "object",
+									"properties": {
+
+										"id": {
+											"type": "integer",
+											"format": "int32"
+										},
+										"cpf": {
+											"type": "number"
+										},
+										"rg": {
+											"type": "number"
+										},
+										"nome": {
+											"type": "string"
+										},
+										"dataNascimento": {
+											"type": "string",
+											"format":"date"
+										},
+										"nomeMae": {
+											"type": "string"
+										},
+										"sexo": {
+											"type": "string"
+										},
+										"cns": {
+											"type": "string"
+											
+										},
+										"dnv": {
+											"type": "string"
+											
+										},
+										"email": {
+											"type": "string",
+											"format": "email"
+										},
+										"dddTelefone": {
+											"type": "number"
+											
+										},
+										"numTelefone": {
+											"type": "number"
+											
+										},
+										"dddCelular": {
+											"type": "number"
+										},
+										"numCelular": {
+											"type": "number"
+										},
+										"valor": {
+											"type": "number"
+										},
+										"idade": {
+											"type": "integer",
+											"format": "int32"
+										},
+										"numeroCarteirinha": {
+											"type": "number"
+											
+										},
+
+										"estadoCivil": {
+											"type": "object",
+											"properties": {
+												"id": {
+													"type": "integer",
+													"format": "int32"
+												},
+												"descricao": {
+													"type": "string"
+												}
+											}
+										},
+										"orgaoEmissor": {
+											"type": "object",
+											"properties": {
+												"id": {
+													"type": "integer",
+													"format": "int32"
+												},
+												"descricao": {
+													"type": "string"
+												}
+											}
+										},
+										"endereco": {
+											"type": "object",
+											"properties": {
+												"id": {
+													"type": "integer",
+													"format": "int32"
+												},
+												"cep": {
+													"type": "number"
+												},
+												"logradouro": {
+													"type": "string"
+												},
+												"numero": {
+													"type": "number"
+												},
+												"complemento": {
+													"type": "string"
+												},
+												"bairro": {
+													"type": "string"
+												},
+												"cidade": {
+													"type": "string"
+												},
+												"uf": {
+													"type": "string"
+													
+												}
+											}
+										},
+										"representanteLegal": {
+											"type": "string"
+											
+										},
+										"carencia": {
+											"type": "string"
+											
+										},
+										"dependente": {
+											"type": "array",
+											"items": {
+												
+												"properties": {
+													"id": {
+														"type": "integer"
+														
+													},
+													"cpf": {
+														"type": "number"
+													},
+													"nome": {
+														"type": "string"
+													},
+													"dataNascimento": {
+														"type": "string"
+														
+													},
+													"nomeMae": {
+														"type": "string"
+													},
+													"sexo": {
+														"type": "string"
+													},
+													"cns": {
+														"type": "string"
+													},
+													"dnv": {
+														"type": "string"
+													},
+													"valorPlano": {
+														"type": "number"
+													},
+													"idade": {
+														"type": "integer"
+														
+													},
+													"numeroCarteirinha": {
+														"type": "number"
+														
+													},
+													"estadoCivil": {
+														"type": "object",
+														"properties": {
+															"id": {
+																"type": "integer"
+																
+															},
+															"descricao": {
+																"type": "string"
+															}
+														}
+													},
+													"grauParentesco": {
+														"type": "object",
+														"properties": {
+															"id": {
+																"type": "integer"
+																
+															},
+															"descricao": {
+																"type": "string"
+															}
+														}
+													},
+													"carencia": {
+														"type": "string"
+														
+													}
+												}
+											}
+										},
+										"profissao": {
+											"type": "object",
+											"properties": {
+												"id": {
+													"type": "integer",
+													"format": "int32"
+												},
+												"descricao": {
+													"type": "string"
+												}
+											}
+										}
+							
+									}
+								},
+								
+								"corretora": {
+									"type": "object",
+									"properties": {
+										"id": {
+											"type": "integer"
+											
+										},
+										"cnpj": {
+											"type": "number"
+										},
+										"nome": {
+											"type": "string"
+										},
+										"razaoSocial": {
+											"type": "string"
+											
+										},
+										"possuiSupervisor": {
+											"type": "boolean"
+										},
+										"codigo": {
+											"type": "number"
+										},
+										"email": {
+											"type": "string",
+											"format":"email"
+										},
+										"indAtivo": {
+											"type": "string"
+											
+										},
+										"indLiberacaoColaborador": {
+											"type": "string"
+											
+										}
+									}
+								},
+								"administradora": {
+									"type": "object",
+									"properties": {
+										"id": {
+											"type": "integer",
+											"format": "int32"
+										},
+										"codigoANS": {
+											"type": "number"
+										},
+										"site": {
+											"type": "string"
+										},
+										"telefone": {
+											"type": "number"
+										},
+										"cnpj": {
+											"type": "number"
+										},
+										"nomeFantasia": {
+											"type": "string"
+										},
+										"razaoSocial": {
+											"type": "string"
+										}
+									}
+								},
+								"corretor": {
+									"type": "object",
+									"properties": {
+										"id": {
+											"type": "integer",
+											"format": "int32"
+										},
+										"cpf": {
+											"type": "number"
+										},
+										"nome": {
+											"type": "string"
+										},
+										"email": {
+											"type": "string",
+											"format":"email"
+										},
+										"celular": {
+											"type": "number"
+										}
+									}
+								},
+								"supervisor": {
+									"type": "object",
+									"properties": {
+										"corretor": {
+											"type": "object",
+											"properties": {
+												"id": {
+													"type": "integer",
+													"format": "int32"
+												},
+												"cpf": {
+													"type": "number"
+												},
+												"nome": {
+													"type": "string"
+												},
+												"email": {
+													"type": "string",
+													"format":"email"
+												},
+												"celular": {
+													"type": "number"
+													
+												}
+											}
+										},
+										"corretora": {
+											"type": "string"
+											
+										}
+									}
+								},
+							
+								"valorTotal": {
+									"type": "number"
+								},
+								"valorTaxaAssociativa": {
+									"type": "integer",
+									"format": "int32"
+								},
+								"taxaCadastro": {
+									"type": "integer",
+									"format": "int32"
+								},
+								"valorTotalMensal": {
+									"type": "number"
+								},
+								"numeroProposta": {
+									"type": "number"
+								},
+								"qtdRecorrenciaAnualTaxaAssociativa": {
+									"type": "number"
+									
+								},
+								"descricaoRecorrenciaTaxaAssociativa": {
+									"type": "string"
+								}
+
+								
+							
+							}
+						}
+					}
+				],
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "New contrato is created",
+						"schema": {
+							"$ref": "#/definitions/contratos"
+						}
+					}
+				}
+			},
+			"get": {
+				"tags": [
+					"contratos"
+				],
+				"parameters": [
+					{
+						"name": "administradora",
+						"in": "query",
+						"required": false,
+						"description": "administradora",
+						"type": "string"
+					},
+					{
+						"name": "operadora",
+						"in": "query",
+						"required": false,
+						"description": "operadora",
+						"type": "string"
+					},
+					{
+						"name": "dataNascimento",
+						"in": "query",
+						"required": false,
+						"description": "dataNascimento",
+						"type": "string"
+					},
+					{
+						"name": "nomeTitular",
+						"in": "query",
+						"required": false,
+						"description": "nomeTitular",
+						"type": "string"
+					},
+					{
+						"name": "entidade",
+						"in": "query",
+						"required": false,
+						"description": "entidade",
+						"type": "string"
+					},
+					{
+						"name": "pagina",
+						"in": "query",
+						"required": false,
+						"description": "pagina",
+						"type": "string"
+					},
+					{
+						"name": "tamanhoPagina",
+						"in": "query",
+						"required": false,
+						"description": "tamanhoPagina",
+						"type": "string"
+					}
+				],
+				"summary": "Get all contratos in system",
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"$ref": "#/definitions/contratos"
+						}
+					}
+				}
+			}
+		},
+		"/contrato_beneficiario/fornecedor": {
+			"get": {
+				"tags": [
+					"fornecedor"
+				],
+				"summary": "Get fornecedor with given ID",
+				"responses": {
+					"200": {
+						"description": "fornecedor is found",
+						"schema": {
+							"$ref": ""
+						}
+					}
+				}
+			}
+		},
+
+		"/contrato_beneficiario/csv/{operadoraId}": {
+			"parameters": [
+				{
+					"name": "operadoraId",
+					"in": "path",
+					"required": true,
+					"description": "ID of operadora that we want to create csv",
+					"type": "string"
+				}
+			],
+			"get": {
+				"tags": [
+					"operadora"
+				],
+				"produces" : [ "application/msexcel" ],
+				"summary": "Get operadora with given ID and download csv",
+				"responses": {
+					"200": {
+						"description": "operadora is found",
+						
+						"schema": {
+							"$ref": ""
+						}
+					}
+				}
+			}
+		},
+		"/contrato_beneficiario/{contratoId}": {
+			"parameters": [
+				{
+					"name": "contratoId",
+					"in": "path",
+					"required": true,
+					"description": "ID of contratos that we want to find",
+					"type": "string"
+				}
+			],
+			"get": {
+				"tags": [
+					"contratos"
+				],
+				"summary": "Get contrato with given ID",
+				"responses": {
+					"200": {
+						"description": "Contrato is found",
+						"schema": {
+							"$ref": "#/definitions/contrato"
+						}
+					}
+				}
+			}
+
+		},
+		"/contrato_beneficiario/{contratoId}/cobrancas": {
+			"parameters": [
+				{
+					"name": "contratoId",
+					"in": "path",
+					"required": true,
+					"description": "ID of contratos that we want to find",
+					"type": "string"
+				}
+			],
+		
+			"post": {
+				"tags": [
+					"contratos"
+				],
+				"description": "Create new contratos in system",
+				"requestBody": {	
+				},
+				
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "New contrato is created",
+						"schema": {
+							"$ref": "#/definitions/contratos"
+						}
+					}
+				}
+			}
+		},
+
+		
+		
+		"/contrato_beneficiario/{numeroCliente}/titulos": {
+			"parameters": [
+				{
+					"name": "contratoId",
+					"in": "path",
+					"required": true,
+					"description": "ID of contratos that we want to find",
+					"type": "string"
+				}
+			],
+			"get": {
+				"tags": [
+					"contratos"
+				],
+				"summary": "Get contrato with given ID",
+				"responses": {
+					"200": {
+						"description": "Contrato is found",
+						"schema": {
+							"$ref": "#/definitions/contrato"
+						}
+					}
+				}
+			}
+		},
+		"/contrato_beneficiario/{carteirinha}/carteirinha": {
+			"parameters": [
+				{
+					"name": "carteirinha",
+					"in": "path",
+					"required": true,
+					"description": "Numero da Carteirinha",
+					"type": "string"
+				}
+			],
+			"get": {
+				"tags": [
+					"contratos"
+				],
+				"summary": "Get contrato with given ID",
+				"responses": {
+					"200": {
+						"description": "Contrato is found",
+						"schema": {
+							"$ref": "#/definitions/contrato"
+						}
+					}
+				}
+			}
+		},
+		
+		"/contrato_beneficiario/{proposta}/proposta": {
+			"parameters": [
+				{
+					"name": "proposta",
+					"in": "path",
+					"required": true,
+					"description": "Numero Proposta",
+					"type": "string"
+				}
+			],
+			"get": {
+				"tags": [
+					"contratos"
+				],
+				"summary": "Get contrato with given ID",
+				"responses": {
+					"200": {
+						"description": "Contrato is found",
+						"schema": {
+							"$ref": "#/definitions/contrato"
+						}
+					}
+				}
+			}
+		},
+		"/contrato_beneficiario/{cpf}/cpf": {
+			"parameters": [
+				{
+					"name": "cpf",
+					"in": "path",
+					"required": true,
+					"description": "Numero do CPF",
+					"type": "string"
+				}
+			],
+			"get": {
+				"tags": [
+					"contratos"
+				],
+				"summary": "Get contrato with given ID",
+				"responses": {
+					"200": {
+						"description": "Contrato is found",
+						"schema": {
+							"$ref": "#/definitions/contrato"
+						}
+					}
+				}
+			}
+		},
+		
+		"/contrato_beneficiario/{idFornecedor}/putFornecedor": {
+			"parameters": [
+				{
+					"name": "idFornecedor",
+					"in": "path",
+					"required": true,
+					"description": "ID of contratos that we want to find",
+					"type": "string"
+				}
+				
+			],
+			
+			"put": {
+				"summary": "Update Contrato with give ID",
+				"tags": [
+					"fornecedor"
+				],
+				"parameters": [
+					{
+						"name": "fornecedores",
+						"in": "body",
+						"deion": "fornecedor",
+						"schema": {
+							"$ref": "#/definitions/fornecedor",
+
+							
+										
+										"properties": {
+
+											"sequenciadoRegistro": {
+												"type": "integer"
+												
+											},
+											"codigo": {
+												"type": "number"
+												
+											},
+											"tipodePessoa":{
+												"type":"string"
+											},
+											"cpfoucnpj":{
+												"type":"number"
+											},
+											"nome":{
+												"type":"string"
+											},
+											"nomeFantansia":{
+												"type":"string"
+											},
+											"tipodoLocaldoIndicadordeInscricaoEstadual":{
+												"type":"string"
+											},
+											"inscricao":{
+												"type":"number"
+											},
+											"inscricaoMunicicipal":{
+												"type":"number"
+											},
+											"inscricaoSuframa":{
+												"type":"number"
+											},
+											"fornecedorERural":{
+												"type":"boolean"
+											},
+											"cooperativa":{
+												"type":"string"
+											},
+											"inscricaonoINSS":{
+												"type":"number"
+											},
+											"classenoINSS":{
+												"type":"string"
+											},
+											"tetoMaximonoINSS":{
+												"type":"number"
+											},
+											"salarioBase":{
+												"type":"number"
+											},
+											"pisPasep":{
+												"type":"number"
+											},
+											"quantidadedeDependente":{
+												"type":"number"
+											},
+											"codigoBrasileirodeOcupacao":{
+												"type":"number"
+											},
+											"datadeNascimento":{
+												"type":"string",
+												"format":"date"
+											},
+											"estadoCivil":{
+												"type":"string"
+											},
+											"nacionalidade":{
+												"type":"string"
+											},
+											"codigodoPais":{
+												"type":"number"
+											},
+											"pais":{
+												"type":"string"
+											},
+											"cep":{
+												"type":"number"
+
+											},
+											"endereco":{
+												"type":"string"
+											},
+											"numerodoEndereco":{
+												"type":"number"
+											},
+											"complementodoEndereco":{
+												"type":"string"
+											},
+											"bairro":{
+												"type":"string"
+											},
+											"codigodaCidade":{
+												"type":"number"
+											},
+											"cidade":{
+												"type":"string"
+											},
+											"uf":{
+												"type":"string"
+											},
+											"telefone":{
+												"type":"number"
+											},
+											"email":{
+												"type":"string"
+											},
+											"ativo":{
+												"type":"string"
+											},
+											"homologado":{
+												"type":"string"
+											},
+											"informacaoesComplementares":{
+												"type":"string"
+											}
+										}	
+
+							
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "contrato is updated",
+						"schema": {
+							"$ref": "#/definitions/fornecedor"
+						}
+					}
+				}
+			}
+		}
+
+
+		
+	}
+}	
